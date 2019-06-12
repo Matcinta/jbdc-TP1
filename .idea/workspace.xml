@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b0f5c6d-02b7-4f9a-a0e5-3598941d15e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/metadata/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/diginamicS01P03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/diginamicS01P03.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/injection/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/injection/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/mm/jdbc/intro/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/injection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/injection/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mm/jdbc/intro/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intro/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/mm/jdbc/intro/package-info.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optim/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -39,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/metadata/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +42,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/optim/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/injection/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="272">
+              <caret line="16" column="77" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="16" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/jdbc/intro/App.java" />
         <option value="$PROJECT_DIR$/src/intro/App.java" />
         <option value="$PROJECT_DIR$/src/metadata/App.java" />
+        <option value="$PROJECT_DIR$/src/optim/App.java" />
       </list>
     </option>
   </component>
@@ -131,6 +132,12 @@
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="metadata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdbc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="optim" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +197,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -205,7 +211,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28277355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28277355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,23 +240,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/injection/App.java">
+    <entry file="file://$PROJECT_DIR$/src/metadata/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="67" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/metadata/App.java">
+    <entry file="file://$PROJECT_DIR$/src/injection/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="16" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optim/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
