@@ -1,1 +1,0 @@
-package org.mm.jdbc.intro;
